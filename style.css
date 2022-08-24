@@ -1,0 +1,79 @@
+:root {
+    --main-bg-color: #003554;
+    --main-color: #9DD4F0;
+    --main-color-titre : #051923;
+}
+
+html{
+    font-size: 100%;
+}
+
+/*logo de la société*/
+
+.logo__societe__velo{
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+}
+
+/*titre de la page*/
+
+.page__ajouter-favoris__titre{
+    text-align: center;
+}
+
+.ajouter__favoris__titre{
+    text-align: center;
+    margin: 1rem;
+    color: var(--main-color-titre);
+    font-family : 'Montserrat', arial;
+}
+
+/*button ajouter et voir*/
+
+.article__ajouter-favoris__voir-favoris{
+    text-align: center;
+    margin: 1rem;
+}
+
+.button__ajouter-favoris{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family : 'Lora', arial;
+}
+
+.button__voir-favoris{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family : 'Lora', arial;
+
+}
+
+/*information sur les velos*/
+
+.information__velo{
+    text-align: center;
+    margin: 1rem;
+}
+
+/*footer*/
+
+.footer__deplacement{
+    text-align: center;
+    margin: 1rem;
+}
+
+.button__deplacement__liste{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+.button__deplacement__recherche{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+.button__deplacement__favoris{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
